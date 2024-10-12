@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sloff">
+    <title>Slof</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- top nev ber -->
+    <div class="nev_ber">
+        <div class="topnev">
+            <div class="logo">
+                <img src="image/sloff.png" alt="">
+            </div>
+            <div class="logo_name">
+                <h2>Sloff</h2>
+            </div>
+            <div class="nev_profile">
+                <a href="profile.html">
+                    <img src="image/th.jpg" alt="">
+                </a>
+            </div>
+        </div>
+<!-- down nev ber -->
+         <div class="downnev">
+           <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="register.html">Regester</a>
+                <a href="login.html">Login</a>
+                <a href="contact.html">Contact</a>
+            
+            
+                <div class="cart_icon">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping" style="color: black;"></i>
+                    </a>
+                    <p>Cart 2 products</p>
+                </div>
+            </div>
+         </div>
+    </div>
+ <!-- banner starts hare -->
+    <header class="header">
+        <div class="banner flex_space_around">
+            <div class="offers flex_space_around">
+
+                <article class="featurs flex_center">
+                    <i class="icon fa-solid fa-truck-fast"></i>
+                    <p>Shipping in 2 days</p>
+                </article>
+
+                <article class="featurs flex_center">
+                    <i class="icon fa-regular fa-message"></i>
+                    <p>Support 24/7</p>
+                </article>
+
+                <article class="featurs flex_center">
+                    <i class="icon fa-solid fa-credit-card"></i>
+                    <p>Payment Option</p>
+                </article>
+
+            </div>
+            
+        </div>
+
+    </header>
+    <main>
+   
+        <div class="content">
+            <div class="left">
+<!-- catagory starts hare -->
+              <section class="catagories">
+                <h3>Catagories</h3>
+              <li class="list_item">
+                <label for="phone">
+                    <input type="checkbox" id="phone" value="phone">Phone
+                </label>
+              </li>
+
+              <li class="list_item">
+                <label for="tablets">
+                    <input type="checkbox" id="tablets" value="tablets">tablets
+                </label>
+              </li>
+
+              <li class="list_item">
+                <label for="computer">
+                    <input type="checkbox" id="computer" value="computer">computer
+                </label>
+              </li>
+
+              <li class="list_item">
+                <label for="headphone">
+                    <input type="checkbox" id="headphone" value="headphone">headphone
+                </label>
+              </li>
+
+              <li class="list_item">
+                <label for="television">
+                    <input type="checkbox" id="television" value="television">television
+                </label>
+              </li>
+            </section>
+<!-- price starts hare -->
+            <section class="price">
+                <h3>Price</h3>
+                <li>
+                    <label for="price1">
+                        <input type="radio" name="price" id="price" value="[0,20]">
+                        $0-$20
+                    </label>
+                </li>
+
+                <li>
+                    <label for="price2">
+                        <input type="radio" name="price" id="price" value="[21,50]">
+                        $21-$50
+                    </label>
+                </li>
+
+                <li>
+                    <label for="price3">
+                        <input type="radio" name="price" id="price" value="[51,100]">
+                        $51-$100
+                    </label>
+                </li>
+
+                <li>
+                    <label for="price4">
+                        <input type="radio" name="price" id="price" value="[101,120]">
+                        $101-$120
+                    </label>
+                </li>
+
+                <li>
+                    <label for="price1">
+                        <input type="radio" name="price" id="price" value="[121,150]">
+                        $121-$150
+                    </label>
+                </li>
+            </section>
+<!-- shoping option starts hare -->
+            <section class="shipping">
+                <h3>Shipping Option</h3>
+                <li>
+                    <label for="free">
+                        <input type="radio" name="shipping" id="free" value="free">
+                        Free
+                    </label>
+                </li>
+
+                <li>
+                    <label for="paid">
+                        <input type="radio" name="shipping" id="paid" value="paid">
+                        paid
+                    </label>
+                </li>
+
+            </section>
+            </div>
+
+            <div class="right">
+<!-- search and sort starts -->
+                <section class="flex_space_around">
+                    <div class="sort">
+                        <label for="sort by">Sort By </label>
+                        <select class="box" name="sort">
+                            <option value="high price">High Price</option>
+                            <option value="mid price">Mid Price</option>
+                            <option value="mid low price">Mid low Price</option>
+                            <option value="low price">Low Price</option>
+                        </select>
+                    </div>
+
+                    <div class="search_bar">
+                        <input type="search" placeholder="Search">
+                        <button class="search_btn"><i class="search_icon fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </section>
+<!-- products starts -->
+                <section class="product_bar">
+                    <div class="product card">
+                        <div class="badge">
+                            <span>5 in stock</span>
+                            <hr class="hr_rool">
+                            <span>3 sold out</span>
+                        </div>
+                        <div class="image">
+                            <img src="image/c1.jpg" alt="">
+                        </div>
+                        <div class="pro_title">
+                            <h2>Apple Laptop</h2>
+                        </div>
+                        <span class="dot_red"></span>
+                        <span class="dot_white"></span>
+                        <span class="dot_blue"></span>
+                        <div class="pro_des">
+                            <p>Days the the that heart engaged entreating core shaven is all. Pallas i my rare scarcely chamber i and. Beating ... <a href="product.html">Learn more</a></p>
+                            <h4 class="price">$252.99</h4>
+                            <p>Rating : 4.84</p>
+                            <button class="add_to_cart btn">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <div class="product card">
+                        <div class="badge">
+                            <span>5 in stock</span>
+                            <hr class="hr_rool">
+                            <span>3 sold out</span>
+                        </div>
+                        <div class="image">
+                            <img src="image/c2.jpg" alt="">
+                        </div>
+                        <div class="pro_title">
+                            <h2>Apple Laptop</h2>
+                        </div>
+                        <span class="dot_red"></span>
+                        <span class="dot_white"></span>
+                        <span class="dot_blue"></span>
+                        <div class="pro_des">
+                            <p>Days the the that heart engaged entreating core shaven is all. Pallas i my rare scarcely chamber i and. Beating ... <a href="product.html">Learn more</a></p>
+                            <h4 class="price">$252.99</h4>
+                            <p>Rating : 4.84</p>
+                            <button class="add_to_cart btn">ADD TO CART</button>
+                        </div>
+                    </div>
+
+
+                    <div class="product card">
+                        <div class="badge">
+                            <span>5 in stock</span>
+                            <hr class="hr_rool">
+                            <span>3 sold out</span>
+                        </div>
+                        <div class="image">
+                            <img src="image/c3.jpg" alt="">
+                        </div>
+                        <div class="pro_title">
+                            <h2>Apple Laptop</h2>
+                        </div>
+                        <span class="dot_red"></span>
+                        <span class="dot_white"></span>
+                        <span class="dot_blue"></span>
+                        <div class="pro_des">
+                            <p>Days the the that heart engaged entreating core shaven is all. Pallas i my rare scarcely chamber i and. Beating ... <a href="product.html">Learn more</a></p>
+                            <h4 class="price">$252.99</h4>
+                            <p>Rating : 4.84</p>
+                            <button class="add_to_cart btn">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <div class="product card">
+                        <div class="badge">
+                            <span>5 in stock</span>
+                            <hr class="hr_rool">
+                            <span>3 sold out</span>
+                        </div>
+                        <div class="image">
+                            <img src="image/c4.jpg" alt="">
+                        </div>
+                        <div class="pro_title">
+                            <h2>Apple Laptop</h2>
+                        </div>
+                        <span class="dot_red"></span>
+                        <span class="dot_white"></span>
+                        <span class="dot_blue"></span>
+                        <div class="pro_des">
+                            <p>Days the the that heart engaged entreating core shaven is all. Pallas i my rare scarcely chamber i and. Beating ... <a href="product.html">Learn more</a></p>
+                            <h4 class="price">$252.99</h4>
+                            <p>Rating : 4.84</p>
+                            <button class="add_to_cart btn">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <div class="product card">
+                        <div class="badge">
+                            <span>5 in stock</span>
+                            <hr class="hr_rool">
+                            <span>3 sold out</span>
+                        </div>
+                        <div class="image">
+                            <img src="image/c5.jpg" alt="">
+                        </div>
+                        <div class="pro_title">
+                            <h2>Apple Laptop</h2>
+                        </div>
+                        <span class="dot_red"></span>
+                        <span class="dot_white"></span>
+                        <span class="dot_blue"></span>
+                        <div class="pro_des">
+                            <p>Days the the that heart engaged entreating core shaven is all. Pallas i my rare scarcely chamber i and. Beating ... <a href="product.html">Learn more</a></p>
+                            <h4 class="price">$252.99</h4>
+                            <p>Rating : 4.84</p>
+                            <button class="add_to_cart btn">ADD TO CART</button>
+                        </div>
+                    </div>
+
+                    <div class="product card">
+                        <div class="badge">
+                            <span>5 in stock</span>
+                            <hr class="hr_rool">
+                            <span>3 sold out</span>
+                        </div>
+                        <div class="image">
+                            <img src="image/c6.jpg" alt="">
+                        </div>
+                        <div class="pro_title">
+                            <h2>Apple Laptop</h2>
+                        </div>
+                        <span class="dot_red"></span>
+                        <span class="dot_white"></span>
+                        <span class="dot_blue"></span>
+                        <div class="pro_des">
+                            <p>Days the the that heart engaged entreating core shaven is all. Pallas i my rare scarcely chamber i and. Beating ... <a href="product.html">Learn more</a></p>
+                            <h4 class="price">$252.99</h4>
+                            <p>Rating : 4.84</p>
+                            <button class="add_to_cart">ADD TO CART</button>
+                        </div>
+                        </div>
+ 
+                </section>
+<!-- pagenation :start  -->
+                <div class="pageination">
+                    <button class="pageination_btn">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button class="pageination_btn">
+                        2
+                    </button>
+                    <button class="pageination_btn">
+                        3
+                    </button>
+                    <button class="pageination_btn">
+                        4
+                    </button>
+                    <button class="pageination_btn">
+                        ....
+                    </button>
+                    <button class="pageination_btn">
+                        10
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+
+
+<!-- footer starts -->
+    <footer>
+        <section class="footer flex_space_around">
+            <div class="footer_left flex_center">
+                <p>Subscribes to Newsletter :</p>
+                <form action="">
+                    <input class="email" type="email" id="email" name="email" placeholder="Email Address">
+                    <button class="btn btn_subscribe">Subscribe</button>
+                </form>
+                <div class="foote_right">
+                    <p>&copy; Copyrights 2024 by sloff</p>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+</body>
+</html>
